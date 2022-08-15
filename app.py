@@ -32,9 +32,9 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # In[4]:
 
 
-get_ipython().run_cell_magic('capture', '', 'gss = pd.read_csv("https://github.com/jkropko/DS-6001/raw/master/localdata/gss2018.csv",\n                 encoding=\'cp1252\', na_values=[\'IAP\',\'IAP,DK,NA,uncodeable\', \'NOT SURE\',\n                                               \'DK\', \'IAP, DK, NA, uncodeable\', \'.a\', "CAN\'T CHOOSE"])')
-
-
+# get_ipython().run_cell_magic('capture', '', 'gss = pd.read_csv("https://github.com/jkropko/DS-6001/raw/master/localdata/gss2018.csv",\n                 encoding=\'cp1252\', na_values=[\'IAP\',\'IAP,DK,NA,uncodeable\', \'NOT SURE\',\n                                               \'DK\', \'IAP, DK, NA, uncodeable\', \'.a\', "CAN\'T CHOOSE"])')
+# gss = pd.read_csv("https://github.com/jkropko/DS-6001/raw/master/localdata/gss2018.csv"
+gss = pd.read_csv("https://github.com/jkropko/DS-6001/raw/master/localdata/gss2018.csv",encoding=\'cp1252\', na_values=[\'IAP\',\'IAP,DK,NA,uncodeable\', \'NOT SURE\',\'DK\', \'IAP, DK, NA, uncodeable\', \'.a\', "CAN\'T CHOOSE"])'
 # Here is code that cleans the data and gets it ready to be used for data visualizations:
 
 # In[5]:
