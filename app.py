@@ -266,7 +266,7 @@ boxes.show()
 # In[152]:
 
 
-external_stylesheets = ['https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 
 
