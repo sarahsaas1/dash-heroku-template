@@ -374,7 +374,7 @@ def make_figure(x, color):
 
 
 if __name__ == '__main__':
-    app.run_server(mode='inline', debug=True, port=8051)
+    app.run_server(debug=True)
 
 
 # ## Challenge 3
