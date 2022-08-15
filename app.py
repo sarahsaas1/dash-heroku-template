@@ -290,9 +290,7 @@ gss_cleaned = gss_clean[bar_columns + group_columns].dropna()
 
 
 # In[137]:
-
-
-app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 app.layout = html.Div(
